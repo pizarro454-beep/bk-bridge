@@ -10,7 +10,7 @@ bridge = pd.read_csv(filename,
                      parse_dates=True,
                      index_col='hour_beginning')
 
-st.subheader('Jeffrey Pizarro Brooklyn Bridge Pedestrian Crossings')
+st.subheader('Brooklyn Bridge Pedestrian Crossings - Jeffrey Pizarro')
 st.markdown('---')
 volume = st.radio("Pedestrian Traffic Volume",('Hourly', 'Daily', 'Weekly'))
 st.markdown('---')
